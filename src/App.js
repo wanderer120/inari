@@ -17,7 +17,7 @@ function App() {
         <Route path="/landing" element={<Landing/>} exact />
         <Route path="/" element={<Landing/>} exact />
       </Routes>
-      
+      <div>version:05.11.2022.1</div>
     </HashRouter>
     
   );
