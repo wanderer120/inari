@@ -16,6 +16,7 @@ export default function Review(){
     let { orderId } = useParams(); 
     useEffect(()=>{
         // console.log('window.mobileAndTabletCheck:'+window.mobileAndTabletCheck() );
+        // console.log("orderId:"+orderId);
     },[formValue]);
     return(
         <Styles>
